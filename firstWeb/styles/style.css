@@ -1,0 +1,38 @@
+html{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;/*这是注释*/
+    background-color: rgb(133, 225, 250);
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+
+    color: rgb(242, 243, 246);
+    text-shadow:3px 3px 2px rgb(61, 140, 225);
+    font-size: 70px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+p,
+li{
+    font-size: 20px;
+    line-height: 2;  /*行高*/
+    letter-spacing: 1px; /*字间距*/
+}
+body{
+    width: auto;
+    margin: 3px auto;/*外边距 上下，左右*/
+    background-color: #ffffff;
+    padding: 0 20px 20px 20px;  /*内边距 上右下左*/
+    border: 3px solid rgb(172, 205, 255); /*边框宽度及颜色*/
+}
+img{
+    display: block;/*赋予图片块级功能*/
+    margin: auto auto;
+}
